@@ -1,0 +1,3 @@
+Start-Transcript -Path C:\Users\Florian\scripts\lgs.txt
+                &C:\Users\Florian\scripts\sass_compiler_copy.bat $path, $filename.Substring(0, $filename.LastIndexOf('.')), $truncated_path
+                Stop-Transcript
